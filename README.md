@@ -14,7 +14,7 @@
 
 ## Description
 
-* _This page is intended to provide means to showcase portfolio. This portfolio will grow during the course of 6+ months. _This project is open-source created under MIT licence. It is free to copy and use._
+* _This page is intended to provide means to showcase portfolio. This portfolio will grow during the course of 6+ months. This project is open-source created under MIT licence. It is free to copy and use._
 
 ## Setup/Installation Requirements
 
@@ -29,7 +29,7 @@
 
 _The MIT License (MIT)_
 
-Copyright (c) 2015 Chris Kibble
+Copyright (c) 2021 Roman Kolivashko
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
