@@ -5,6 +5,10 @@
 /* body padding */
 body {
   padding: 30px;
+  background: lightgrey
+  /* background-image: url('../img/bg_rising_sun.jpg');
+  background-repeat: no-repeat;
+  background-position: auto; */
 }
 
 /* container styling */
