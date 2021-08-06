@@ -14,11 +14,12 @@
 
 ## Description
 
-* _This page is intended to provide means to showcase portfolio. This portfolio will grow during the course of 6+ months. This project is open-source created under MIT licence. It is free to copy and use._
+* _This page is intended to provide home for all Epicodus projects. This portfolio will grow in a course of 6+ months._
 
 ## Setup/Installation Requirements
 
-* _Run git clone and open index.html file in browser._
+* _Run_ `git clone https://github.com/romankolivashko/portfolio.git`
+* _Open `index.html` file in browser._
 * _Replace all personal info with your own name._
 
 ## Known Bugs
