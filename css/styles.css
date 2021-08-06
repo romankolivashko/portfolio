@@ -32,7 +32,7 @@ a:hover {
 }
 
 img {
-  width: 150px;
+  width: 120px;
 }
 /* column decor */
 .column {
@@ -59,7 +59,7 @@ p {
 /* row and column decor */
 .row {
   display: inherit;
-  margin: 5px;
+  margin: 0px;
   padding: 15px;
   box-sizing: border-box;
 }
@@ -79,6 +79,7 @@ p {
 
 /* content decor */
 .content {
+  display: grid;
   background-color: lightcyan;
   padding: 10px;
   border: 1px solid gray;
@@ -102,6 +103,10 @@ ul {
 
 li {
   float: left;
+}
+
+#killflow li {
+  float: none;
 }
 
 li a {
@@ -129,8 +134,3 @@ li a:hover {
   font-size: xx-small;
   text-align: center;
 }
-
-/* about me block decor */
-/* .about {
-  background-color: white;
-} */
