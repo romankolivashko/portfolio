@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+/* body padding */
+body {
+  padding: 30px;
+}
+
+/* container styling */
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  color: green;
+}
