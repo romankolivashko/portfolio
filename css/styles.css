@@ -26,6 +26,14 @@ a:hover {
   color: lightcoral;
 }
 
+img {
+  width: 150px;
+}
+/* column decor */
+.column {
+  float: left;
+  width: 25%;
+}
 
 /* paragraph decor */
 p {
@@ -35,13 +43,13 @@ p {
 }
 
 
-/* p {
+p {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
   overflow: hidden;
 
-} */
+}
 
 /* row and column decor */
 .row {
@@ -53,6 +61,9 @@ p {
   padding: 10px;
 }
 
+.row > .column {
+  padding: 5px;
+}
 /* .row:after {
   content: "";
   display: table;
