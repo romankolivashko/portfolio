@@ -52,3 +52,18 @@ p {
 .column {
   padding: 10px;
 }
+
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+/* content decor */
+.content {
+  background-color: lightcyan;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+
