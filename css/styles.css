@@ -7,15 +7,11 @@ body {
   margin-top: -50px;
   padding: 30px;
   background: lightgrey
-  /* background-image: url('../img/bg_rising_sun.jpg');
-  background-repeat: no-repeat;
-  background-position: auto; */
 }
 
 /* container styling */
 .container {
   max-width: 1200px;
-  margin: auto;
 }
 
 h1 {
@@ -31,9 +27,6 @@ a:hover {
   color: lightcoral;
 }
 
-img {
-  width: 120px;
-}
 /* column decor */
 .column {
   float: left;
@@ -53,7 +46,6 @@ p {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
   overflow: hidden;
-
 }
 
 /* row and column decor */
@@ -64,18 +56,13 @@ p {
   box-sizing: border-box;
 }
 
-.column {
+/* .column {
   padding: 10px;
-}
+} */
 
 .row > .column {
   padding: 5px;
 }
-/* .row:after {
-  content: "";
-  display: table;
-  clear: both;
-} */
 
 /* content decor */
 .content {
@@ -88,6 +75,7 @@ p {
 /* navigation */
 .nav {
   top: 0;
+  width: inherit;
 }
 
 ul {
@@ -134,3 +122,4 @@ li a:hover {
   font-size: xx-small;
   text-align: center;
 }
+
