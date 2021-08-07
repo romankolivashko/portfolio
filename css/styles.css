@@ -4,7 +4,8 @@
 
 /* body decor */
 body {
-  margin-top: -50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: -35px;
   padding: 30px;
   background: lightgrey
 }
@@ -35,15 +36,8 @@ a:hover {
 
 /* paragraph decor */
 p {
-  display: grid;
+  font-size: medium;
   justify-content: space-evenly;
-  overflow: hidden;
-}
-
-p {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
   overflow: hidden;
 }
 
@@ -51,13 +45,9 @@ p {
 .row {
   display: inherit;
   margin: 0px;
-  padding: 15px;
+  padding: 5px;
   box-sizing: border-box;
 }
-
-/* .column {
-  padding: 10px;
-} */
 
 .row > .column {
   padding: 5px;
@@ -111,19 +101,14 @@ li a:hover {
 
 img {
   float: left;
-  width: 150px;
+  align-content: inherit;
+  width: 160px;
+  padding: 20px;
 }
 
-.footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 25px;
-  background-color: rgb(212, 178, 178);
-  color: rgb(31, 26, 26);
-  padding-top: 5px;
-  font-size: xx-small;
-  text-align: center;
-}
-
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
