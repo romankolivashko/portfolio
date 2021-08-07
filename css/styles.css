@@ -65,7 +65,7 @@ p {
 
 /* content decor */
 .content {
-  display: grid;
+  /* display: grid; */
   background-color: lightcyan;
   padding: 10px;
   border: 1px solid gray;
@@ -107,6 +107,11 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
+}
+
+img {
+  float: left;
+  width: 150px;
 }
 
 .footer {
