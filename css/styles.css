@@ -127,13 +127,8 @@ button {
   box-shadow: 5px 5px 8px 5px #888888;
 }
 
+
+/* Hovering efect */
 .hov:hover {
   transform: scale(1.005);
 }
-
-/* .hov:hover
-    {
-      -moz-box-shadow: 0 0 10px #ccc;
-      -webkit-box-shadow: 0 0 10px #ccc;
-      box-shadow: 0 0 10px #ccc;
-    } */
