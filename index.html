@@ -2,91 +2,71 @@
 <html lang="en">
 
 <head>
-  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
-  <link rel="stylesheet" href="css/styles.css">
   <title>Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-  <div class="container">
-    <!-- navigation bar -->
-    <div class="row">
-      <div class="nav">
+  <div class="shadow">
+    <header>
+      <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <!-- <li><a href="#">About me</a></li> -->
-          <li><a href="mailto:rkolivashko@gmail.com">Contact</a></li>
           <li><a href="https://romankolivashko.github.io/resume/" target="_blank">Resume</a></li>
+          <li><a href="mailto:rkolivashko@gmail.com">Contact</a></li>
         </ul>
-      </div>
-    </div>
-  </div>
-  <!-- Body content -->
-  <div class="row">
-    <img src="img/profile_photo.jfif" alt="profile">
-    <div class="content">
-      <h3>About me</h3>
-      <p>I'm outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. I believe
-        that any person should work on developing their professional skills and learning new things all the time.
-        Currently, I'm looking for new career opportunities my current job position cannot provide.</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="content">
-      <h3>Hobbies</h3>
-      <p><em>If I cannot be found coding new app or learning new skill, I'm most likely:</em></p>
-      <div id="killflow">
+      </nav>
+      <div class="about">
+        <img src="img/profile_photo.jfif" alt="profile" class="self-image">
+        <h3>Hey there, I'm Roman <span role="img" aria-label="waving hand" class="contact">👋</span></h3>
+        <p>I'm outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. I believe
+          that any person should work on developing their professional skills and learning new things all the time.
+          Currently, I'm looking for new career opportunities my current job position cannot provide.</p>
+        <p>Usually, if I <em>cannot</em> be found coding new app or learning new skill, I'm most likely:</p>
         <ol>
           <li> Pursuing outdoor adventures </li>
           <li> Enjoying <strong>good coffee</strong> with friends</li>
           <li> Watching indie flix with family</li>
         </ol>
       </div>
-    </div>
   </div>
-  <div class="row">
-    <div class="content">
-      <h3>Current Projects</h3>
-    </div>
-  </div>
-  <div class="row">
-    <div class="column">
-      <div class="content">
-        <h3>
-          <a href="https://romankolivashko.github.io/cookie-recepie/cookie-recipe.html" target="_blank">HTML use</a>
-        </h3>
-        <p>HTML is the backbone of the web. This page demostrates the use of key HTML tags.</p>
-      </div>
-    </div>
-    <div class="column">
-      <div class="content">
-        <h3>
-          <a href="https://romankolivashko.github.io/week-in-review/" target="_blank">CSS sample</a>
-        </h3>
-        <p>This page demos the use of CSS through the use of bootstrap, one of the leading CSS frameworks.</< /p>
-      </div>
-    </div>
-    <div class="column">
-      <div class="content">
-        <h3>
-          <a href="https://romankolivashko.github.io/resume/" target="_blank">Online CV</a>
-        </h3>
-        <p>Here is my resume, which can also be found online. Both HTML and CSS were used to builf it.</p>
-      </div>
-    </div>
-    <div class="column">
-      <div class="content">
-        <h3>
-          <a href="https://romankolivashko.github.io/vacation/" target="_blank">Other</a>
-        </h3>
-        <p>Here is another simple project that intends to use most out of HTML and CSS technologies.</p>
-      </div>
-    </div>
-  </div>
-  <div id="footer">
+  </header>
+  <main>
+    <h2 style="text-align: center;">My Recent Works</h2>
+    <hr>
+    <article class="box_bg">
+      <h2>Use of HTML</h2>
+      <p>HTML is the backbone of the web. This page demostrates the use of key HTML tags.</p>
+      <a href="https://romankolivashko.github.io/cookie-recepie/cookie-recipe.html" target="_blank">
+        <button class="button_slide slide_left">View</button>
+      </a>
+    </article>
+    <article class="box_bg">
+      <h2>CSS Sample</h2>
+      <p>This page demos the use of CSS through the use of bootstrap, one of the leading CSS frameworks.</p>
+      <a href="https://romankolivashko.github.io/week-in-review/" target="_blank">
+        <button class="button_slide slide_left">View</button>
+      </a>
+    </article>
+    <article class="box_bg">
+      <h2>Online CV</h2>
+      <p>Here is my resume, which can also be found online. Both HTML and CSS were used to builf it.</p>
+      <a href="https://romankolivashko.github.io/resume/" target="_blank">
+        <button class="button_slide slide_left">View</button>
+      </a>
+    </article>
+    <article class="box_bg">
+      <h2>Other</h2>
+      <p>This page demos the use of CSS through the use of bootstrap, one of the leading CSS frameworks.</p>
+      <a href="https://romankolivashko.github.io/vacation/" target="_blank">
+        <button class="button_slide slide_left">View</button>
+      </a>
+    </article>
+    <hr>
+  </main>
+  <br>
+  <footer>
     <p>Created by Roman Kolivashko. <span>&copy;</span><span> 2021</span></p>
-  </div>
-  </div>
+  </footer>
 </body>
-
 </html>
