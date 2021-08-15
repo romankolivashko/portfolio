@@ -22,6 +22,9 @@
 * _Open `index.html` file in browser._
 * _Replace all personal info with your own name._
 
+## How to access the app from the web
+* _Follow the link [here](https://romankolivashko.github.io/portfolio/)_ 
+
 ## Known Bugs
 
 * _NO bugs has been reported yet_
